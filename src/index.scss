@@ -1,0 +1,61 @@
+@use 'vuetify/settings' with (
+  //$button-text-transform: unset,
+  //$button-letter-spacing: normal,
+  //$shadow-key-umbra-opacity:  var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, 0)),
+  //$shadow-key-penumbra-opacity:  var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, 0)),
+  //$shadow-key-ambient-opacity: var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, 0.05)),
+  $list-item-icon-margin-end: 6px,
+  $field-font-size: 14px,
+  $line-height-root: 1,
+  $label-font-size: 14px,
+  $label-letter-spacing: normal,
+  //$label-color: #ef4444,
+  $button-padding-ratio: 3,
+  $typography:
+    (
+        'h1': (
+           'weight': 700,
+          'letter-spacing': -2px,
+          'line-height': 20rem,
+        ),
+        'h2': (
+          'letter-spacing': normal,
+        ),
+        'h3': (
+          'letter-spacing': normal,
+        ),
+        'h4': (
+          'letter-spacing': normal,
+        ),
+        'h5': (
+          'letter-spacing': normal,
+        ),
+        'h6': (
+          'letter-spacing': normal,
+        ),
+        'subtitle-1': (
+          'letter-spacing': normal,
+        ),
+        'subtitle-2': (
+          'letter-spacing': normal,
+        ),
+        'body-1': (
+          'letter-spacing': normal,
+        ),
+        'body-3': (
+          'letter-spacing': normal,
+        ),
+        'button': (
+          'weight': 500,
+          'letter-spacing': normal,
+          'text-transform': none
+        ),
+        'caption': (
+          'letter-spacing': normal,
+        ),
+        'overline': (
+          'letter-spacing': normal,
+        ),
+    ),
+  //$typography-button-letter-spacing: normal
+);
